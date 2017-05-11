@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/MyKeylogger.dir/Sources/main.cpp.o  -o MyKeylogger 
