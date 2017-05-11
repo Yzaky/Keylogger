@@ -90,7 +90,22 @@
 		<Unit filename="/home/youssef/CLionProjects/MyKeylogger/Headers/Helper.h">
 			<Option target="MyKeylogger"/>
 		</Unit>
+		<Unit filename="/home/youssef/CLionProjects/MyKeylogger/Headers/IO.h">
+			<Option target="MyKeylogger"/>
+		</Unit>
 		<Unit filename="/home/youssef/CLionProjects/MyKeylogger/Headers/KCsts.h">
+			<Option target="MyKeylogger"/>
+		</Unit>
+		<Unit filename="/home/youssef/CLionProjects/MyKeylogger/Headers/KeybHook.h">
+			<Option target="MyKeylogger"/>
+		</Unit>
+		<Unit filename="/home/youssef/CLionProjects/MyKeylogger/Headers/PowerShellScript.h">
+			<Option target="MyKeylogger"/>
+		</Unit>
+		<Unit filename="/home/youssef/CLionProjects/MyKeylogger/Headers/SendMail.h">
+			<Option target="MyKeylogger"/>
+		</Unit>
+		<Unit filename="/home/youssef/CLionProjects/MyKeylogger/Headers/Timer.h">
 			<Option target="MyKeylogger"/>
 		</Unit>
 		<Unit filename="/home/youssef/CLionProjects/MyKeylogger/Sources/main.cpp">
