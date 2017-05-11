@@ -84,10 +84,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/youssef/CLionProjects/MyKeylogger/Headers/KCsts.h">
+		<Unit filename="/home/youssef/CLionProjects/MyKeylogger/Headers/Base64.h">
 			<Option target="MyKeylogger"/>
 		</Unit>
-		<Unit filename="/home/youssef/CLionProjects/MyKeylogger/Helper.h">
+		<Unit filename="/home/youssef/CLionProjects/MyKeylogger/Headers/Helper.h">
+			<Option target="MyKeylogger"/>
+		</Unit>
+		<Unit filename="/home/youssef/CLionProjects/MyKeylogger/Headers/KCsts.h">
 			<Option target="MyKeylogger"/>
 		</Unit>
 		<Unit filename="/home/youssef/CLionProjects/MyKeylogger/Sources/main.cpp">

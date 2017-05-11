@@ -3,5 +3,5 @@ project(MyKeylogger)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES Sources/main.cpp Headers/KCsts.h Headers/Helper.h)
+set(SOURCE_FILES Sources/main.cpp Headers/KCsts.h Headers/Helper.h Headers/Base64.h)
 add_executable(MyKeylogger ${SOURCE_FILES})

@@ -7,26 +7,18 @@
 
 #include <map>
 #include <string> // Already defined in CLion, just for codeblocks tests.
-
+#include <utility>
 using namespace std;
-class KeyPair {
 
-public:
-    string VKName;
-    string Name;
 
-    KeyPair(const string vk ="",const string name="") : VKName(vk),Name(name){}
-};
 
 class Keys{
 
 public:
-        map<int,KeyPair> KEYS;
-
-
+        map<int,pair<string,string>> KEYS;
 };
 
-map<int,KeyPair> Keys = {
+map<int,pair<string,string>> Keys = {
         {0xC1, {"[VK_ABNT_C1]", "[Abnt C1]"}},
         {0xC2, {"[VK_ABNT_C2]", "[Abnt C2]"}},
         {0x6B, {"[VK_ADD]", "[Numpad +]"}},
@@ -219,4 +211,5 @@ map<int,KeyPair> Keys = {
         {0x05, {"[VK_XBUTTON1]", "[X Button 1]"}},
         {0x06, {"[VK_XBUTTON2]", "[X Button 2]"}},
 };
+
 #endif //MYKEYLOGGER_KCSTS_H
